@@ -9,7 +9,9 @@ const Button = (props) => {
         classList += ` button-${props.type}`
     }
 
-    return <button>{props.label}</button>
+    return <button className={classList}>
+        {props.label}
+        </button>
 }
 
 export default Button;
