@@ -14,3 +14,8 @@ type="primary"
 outline
 />)
 
+.add('Gradient Primary', () => <Button
+label="Do Something"
+type="primary"
+gradient
+/>)

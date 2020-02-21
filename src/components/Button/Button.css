@@ -1,6 +1,7 @@
 button {
     border-radius: 2px;
-    padding: 7px 15px;
+    width: 150px;
+    height: 46px;
     cursor: pointer
 }
 
@@ -17,5 +18,12 @@ button {
 }
 
 .button-gradient {
-    
+    background-color:#33A0FF1F;
+    color: #33A0FF;
+    border: #33A0FF1F;
+}
+
+.button-big {
+    width: 171px;
+    height: 60px;
 }

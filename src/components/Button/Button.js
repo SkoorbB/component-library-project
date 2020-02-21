@@ -13,6 +13,14 @@ const Button = (props) => {
         classList += ` button-outline`
     }
 
+    if (props.gradient) {
+        classList += ` button-gradient`    
+    }
+
+    if (props.big) {
+        classList += ` button-big`
+    }
+
     return <button className={classList}>
         {props.label}
         </button>
