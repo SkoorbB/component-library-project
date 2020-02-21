@@ -4,6 +4,6 @@ import Button from './Button';
 
 storiesOf('Button', module)
 .add('Primary', () => <Button
-label="Primary"
+label="Do Something"
 type="primary"
 />)
