@@ -7,3 +7,10 @@ storiesOf('Button', module)
 label="Do Something"
 type="primary"
 />)
+
+.add('Outline Primary', () => <Button
+label="Do Something"
+type="primary"
+outline
+/>)
+

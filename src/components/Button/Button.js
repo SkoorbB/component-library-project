@@ -9,6 +9,10 @@ const Button = (props) => {
         classList += ` button-${props.type}`
     }
 
+    if (props.outline) {
+        classList += ` button-outline`
+    }
+
     return <button className={classList}>
         {props.label}
         </button>

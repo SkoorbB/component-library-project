@@ -1,11 +1,21 @@
 button {
     border-radius: 2px;
-    padding: 5px 25px;
+    padding: 7px 15px;
     cursor: pointer
 }
 
 .button-primary {
-    background-color: rgb(72, 156, 245);
+    background-color: #33A0FF;
     color: white;
-    border: rgb(72, 156, 245);
+    border: 1px solid #33A0FF;
+}
+
+.button-outline {
+    color: #33A0FF;
+    background-color: white;
+    border:1px solid #33A0FF;
+}
+
+.button-gradient {
+    
 }
