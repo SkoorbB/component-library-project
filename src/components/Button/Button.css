@@ -1,10 +1,11 @@
 button {
     border-radius: 2px;
     padding: 5px 25px;
+    cursor: pointer
 }
 
 .button-primary {
-    background-color: #0069D9;
+    background-color: rgb(72, 156, 245);
     color: white;
-    border: #0069D9;
+    border: rgb(72, 156, 245);
 }
