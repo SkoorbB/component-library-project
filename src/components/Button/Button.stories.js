@@ -6,6 +6,7 @@ storiesOf('Button', module)
 .add('Primary', () => <Button
 label="Do Something"
 type="primary"
+white
 />)
 
 .add('Outline Primary', () => <Button

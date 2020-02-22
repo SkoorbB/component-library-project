@@ -9,6 +9,9 @@ const Button = (props) => {
         classList += ` button-${props.type}`
     }
 
+    if (props.white)
+        classlist += ` button-white`
+
     if (props.outline) {
         classList += ` button-outline`
     }

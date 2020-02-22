@@ -10,13 +10,13 @@ button {
 
 .button-primary {
     background-color: #33A0FF;
+    color: #33A0FF;
     border: 1px solid #33A0FF;
 }
 
 
 .button-outline {
     background-color: white;
-    color: button;
 }
 
 .button-gradient {
@@ -30,3 +30,6 @@ button {
     height: 60px;
 }
 
+.button-white {
+    color: white;
+}
