@@ -18,8 +18,7 @@ outline
 
 .add('Gradient Primary', () => <Button
 label="Do Something"
-type="primary"
-gradient
+type="gprimary"
 />)
 
 .add('Big Primary', () => <Button
@@ -55,32 +54,33 @@ type="danger"
 outline
 />)
 
-.add('Gradient Primary', () => <Button
+.add('Gradient Danger', () => <Button
 label="Do Something"
-type="primary"
+type="danger"
 gradient
 />)
 
-.add('Big Primary', () => <Button
+.add('Big Danger', () => <Button
 label="Do Something"
-type="primary"
+type="danger"
 big
 white
 />)
 
-.add('Big Outline Primary', () => <Button
+.add('Big Outline Danger', () => <Button
 label="Do Something"
-type="primary"
+type="danger"
 outline
 big
 />)
 
-.add('Big Gradient Primary', () => <Button
+.add('Big Gradient Danger', () => <Button
 label="Do Something"
-type="primary"
+type="danger"
 gradient
 big
 />)
+
 .add('Success', () => <Button
 label="Do Something"
 type="success"

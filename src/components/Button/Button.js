@@ -4,27 +4,25 @@ import './Button.css'
 const Button = (props) => {
 
     let classList = ''
-    let types = ['primary', 'danger', 'warning', 'success', 'default']
+    let types = ['primary', 'gprimary', 'danger', 'gdanger', 'warning', 'gwarning', 'success', 'gsuccess', 'default', 'gdefault']
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
 
-    if (props.white)
+    if (props.white) {
         classList += ` button-white`
-
+    }
+    
     if (props.outline) {
         classList += ` button-outline`
-    }
-
-    if (props.gradient) {
-        classList += ` button-gradient`    
     }
 
     if (props.big) {
         classList += ` button-big`
     }
 
-    return <button className={classList}>
+    return <button className={classList}
+        src={props.icon}>
         {props.label}
         </button>
 }
