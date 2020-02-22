@@ -6,6 +6,7 @@ button {
     color: white;
     background-color: #22262A;
     border: 1px solid #22262A;
+    z-index: 3;
 }
 
 .button-primary {
@@ -14,15 +15,31 @@ button {
     border: 1px solid #33A0FF;
 }
 
+.button-danger {
+    background-color: #FF4858;
+    color: #FF4858;
+    border: 1px solid #FF4858;
+}
+
+.button-success {
+    background-color: #0AD00A;
+    color: #0AD00A;
+    border: 1px solid #0AD00A;
+}
+
+.button-warning {
+    background-color: #FFC600;
+    color: #FFC600;
+    border: 1px solid #FFC600;
+}
 
 .button-outline {
     background-color: white;
 }
 
 .button-gradient {
-    background-color:#33A0FF1F;
-    color: #33A0FF;
-    border: #33A0FF1F;
+    opacity: 0.1;
+    z-index: -1;
 }
 
 .button-big {
@@ -33,3 +50,6 @@ button {
 .button-white {
     color: white;
 }
+
+
+
