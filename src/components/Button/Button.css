@@ -3,7 +3,7 @@ button {
     width: 150px;
     height: 46px;
     cursor: pointer;
-    color: white;
+    color: #22262A;
     background-color: #22262A;
     border: 1px solid #22262A;
     z-index: 3;
@@ -27,16 +27,40 @@ button {
     border: 1px solid #FF4858;
 }
 
+.button-gdanger {
+    background-color: #FF48581F;
+    color: #FF4858;
+    border: #FF48581F;
+}
+
 .button-success {
     background-color: #0AD00A;
     color: #0AD00A;
     border: 1px solid #0AD00A;
 }
 
+.button-gsuccess {
+    background-color: #0AD00A1F;
+    color: #0AD00A;
+    border: #0AD00A1F;
+}
+
 .button-warning {
     background-color: #FFC600;
     color: #FFC600;
     border: 1px solid #FFC600;
+}
+
+.button-gwarning {
+    background-color: #FFC6001F;
+    color: #FFC600;
+    border: #FFC6001F;
+}
+
+.button-gdefault {
+    background-color: #22262A1F;
+    color: #22262A;
+    border: #22262A1F;
 }
 
 .button-outline {
