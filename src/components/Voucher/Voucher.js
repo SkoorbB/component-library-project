@@ -36,7 +36,6 @@ if (props.large) {
     <Forms
     placeholder="Voucher Code"
     large
-    voucher
     />
     <Button 
     type="primary"
