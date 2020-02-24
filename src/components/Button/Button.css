@@ -75,3 +75,9 @@ button {
     background-color: #33A0FF1F;  
     border: #33A0FF1F;
 }
+
+.button-voucher {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 118px;
+}

@@ -18,13 +18,17 @@ const Forms = (props) => {
         classList += ` input-large`
     }
 
+    if (props.voucher) {
+        classList += ` input-voucher`
+    }
+
 return <div>
     <div className={header} /*className={classList}*/>
     {props.label}
     </div>
     <div>    
     <input className={classList}
-    placeholder="Email">
+    placeholder={props.placeholder}>
     </input>
     </div>
     </div>

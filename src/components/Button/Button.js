@@ -26,6 +26,10 @@ const Button = (props) => {
         classList += ` button-gradient`
     }   
 
+    if (props.voucher) {
+        classList += ` button-voucher`
+    }
+
     return <button className={classList}
         src={props.icon}>
         {props.label}

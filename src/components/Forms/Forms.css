@@ -21,3 +21,7 @@ input {
     padding-left: 10px;
     display: inline-block;
 }
+
+.input-voucher {
+    width: 182px;
+}
