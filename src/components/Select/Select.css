@@ -1,0 +1,23 @@
+.outline {
+    border-radius: 2px;
+    width: 300px;
+    height: 60px;
+    cursor: pointer;
+    border: 2px solid #F1F3F4;
+    font-size: 14px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 0 1fr;
+}
+
+select {
+    background-color: white;
+    border: white;
+    z-index: 1;
+}
+
+label {
+    align-self: center;
+    padding-left: 10px;
+    z-index: 3;
+}
