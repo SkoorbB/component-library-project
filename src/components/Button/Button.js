@@ -1,10 +1,11 @@
 import React from 'react';
 import './Button.css'
 
+
 const Button = (props) => {
 
     let classList = ''
-    let types = ['primary', 'gprimary', 'danger', 'gdanger', 'warning', 'gwarning', 'success', 'gsuccess', 'default', 'gdefault']
+    let types = ['primary', 'danger', 'gdanger', 'warning', 'gwarning', 'success', 'gsuccess', 'default', 'gdefault']
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
@@ -20,6 +21,10 @@ const Button = (props) => {
     if (props.big) {
         classList += ` button-big`
     }
+
+    if (props.gradient) {
+        classList += ` button-gradient`
+    }   
 
     return <button className={classList}
         src={props.icon}>

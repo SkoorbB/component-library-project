@@ -1,0 +1,23 @@
+input {
+    border-radius: 2px;
+    width: 300px;
+    height: 36px;
+    cursor: pointer;
+    border: 2px solid #F1F3F4;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.input-medium {
+    height: 40px;
+    font-size: 16px;
+}
+
+.input-large {
+    height: 60px;
+}
+
+.input-header {
+    padding-left: 10px;
+    display: inline-block;
+}

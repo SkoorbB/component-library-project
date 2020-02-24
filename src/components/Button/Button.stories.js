@@ -18,7 +18,8 @@ outline
 
 .add('Gradient Primary', () => <Button
 label="Do Something"
-type="gprimary"
+type="primary"
+gradient
 />)
 
 .add('Big Primary', () => <Button
@@ -160,7 +161,6 @@ white
 
 .add('Outline Default', () => <Button
 label="Do Something"
-type="button"
 outline
 />)
 
@@ -171,14 +171,12 @@ type="gdefault"
 
 .add('Big Default', () => <Button
 label="Do Something"
-type="button"
 big
 white
 />)
 
 .add('Big Outline Default', () => <Button
 label="Do Something"
-type="button"
 outline
 big
 />)

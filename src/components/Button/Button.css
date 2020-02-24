@@ -15,12 +15,6 @@ button {
     border: 1px solid #33A0FF;
 }
 
-.button-gprimary {
-    background-color: #33A0FF1F;
-    color: #33A0FF;
-    border: #33A0FF1F;
-}
-
 .button-danger {
     background-color: #FF4858;
     color: #FF4858;
@@ -77,3 +71,7 @@ button {
 }
 
 
+.button-gradient {
+    background-color: #33A0FF1F;  
+    border: #33A0FF1F;
+}
