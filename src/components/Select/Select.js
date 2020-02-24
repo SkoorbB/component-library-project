@@ -9,6 +9,18 @@ const Select = (props) => {
         classList += ` outline`
     }
 
+    if (props.filled) {
+        classList += ` filled`
+    }
+
+    if (props.small) {
+        classList += ` small`
+    }
+
+    if (props.smaller) {
+        classList += ` smaller`
+    }
+
     return <div className={classList}>
           <label>{props.label}</label>
         <select>
